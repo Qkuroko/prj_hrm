@@ -80,7 +80,8 @@ export default {
 <style>
 .wrapper {
   height: 100vh;
-  background-image: linear-gradient(to bottom right, #FC466B, #3f5EFB);
+  /*background-image: linear-gradient(to bottom right, #FC466B, #3f5EFB);*/
+  background-image: linear-gradient(to bottom right, #054ca8, #18c21f);
   overflow: hidden;
 }
 </style>
