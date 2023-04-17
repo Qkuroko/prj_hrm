@@ -8,13 +8,13 @@
     active-text-color="#ffd04b"
   >
     <div style="height: 60px; line-height: 60px; text-align: center">
-      <img
-        src="../assets/logo.png"
-        alt=""
-        style="width: 20px; position: relative; top: 5px; margin-right:2px"
-      />
+<!--      <img-->
+<!--        src="../assets/logo.png"-->
+<!--        alt=""-->
+<!--        style="width: 20px; position: relative; top: 5px; margin-right:2px"-->
+<!--      />-->
       <span style="color: #fff; font-weight: bold">
-        {{ isCollapse ? '' : '人力资源管理系统' }}
+        {{ isCollapse ? '' : '医院人力资源管理系统' }}
       </span>
     </div>
     <el-menu-item

@@ -3,13 +3,13 @@
     <div
       style="margin: 130px auto; background-color: #fff; width:350px; height:300px;padding: 20px; border-radius:10px">
       <div style="height: 60px; line-height: 60px; text-align: center">
-        <img
-          src="../../assets/logo.png"
-          alt=""
-          style="width: 20px; position: relative; top: 5px;"
-        />
+<!--        <img-->
+<!--          src="../../assets/logo.png"-->
+<!--          alt=""-->
+<!--          style="width: 20px; position: relative; top: 5px;"-->
+<!--        />-->
         <b style="color: #303133; font-weight: bold">
-          人力资源管理系统
+          医院人力资源管理系统
         </b>
       </div>
       <el-form :rules="rules" :model="staff" ref="loginForm">
