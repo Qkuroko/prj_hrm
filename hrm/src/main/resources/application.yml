@@ -24,7 +24,9 @@ mybatis-plus:
 
 file:
   upload:
-    path: E:/project/idea/hrm/file/ # 文件存储位置
+#    path: E:/project/idea/hrm/file/ # 文件存储位置
+
+    path: E:/file/ # 文件存储位置
 
 
 
