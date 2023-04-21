@@ -6,7 +6,7 @@ import java.io.Serializable;
  * 通用枚举接口
  *
  * @Author glb
- * @Date 2022/3/21
+ * @Date 2023/3/21
  * @Version 1.0
  */
 

@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * 配置拦截器
  *
  * @Author : glb
- * @Date : 2022/1/30
+ * @Date : 2023/1/30
  */
 
 @Configuration

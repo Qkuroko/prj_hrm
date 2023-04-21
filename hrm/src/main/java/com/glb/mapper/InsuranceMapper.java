@@ -15,7 +15,7 @@ import java.util.List;
  * </p>
  *
  * @author glb
- * @since 2022-03-23
+ * @since 2023-03-23
  */
 public interface InsuranceMapper extends BaseMapper<Insurance> {
 

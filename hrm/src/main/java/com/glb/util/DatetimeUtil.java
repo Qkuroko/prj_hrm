@@ -4,13 +4,13 @@ import cn.hutool.core.date.DateUtil;
 
 /**
  * @Author glb
- * @Date 2022/4/12
+ * @Date 2023/4/12
  * @Version 1.0
  */
 public class DatetimeUtil {
 
     /**
-     * 获取月份的日期字符串数据组如，['20220101','20220102','20220103',........]
+     * 获取月份的日期字符串数据组如，['20230101','20230102','20230103',........]
      *
      * @param month yyyyMM
      * @return

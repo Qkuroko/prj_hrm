@@ -13,7 +13,7 @@ import org.apache.ibatis.annotations.Select;
  * </p>
  *
  * @author glb
- * @since 2022-04-05
+ * @since 2023-04-05
  */
 public interface StaffLeaveMapper extends BaseMapper<StaffLeave> {
 

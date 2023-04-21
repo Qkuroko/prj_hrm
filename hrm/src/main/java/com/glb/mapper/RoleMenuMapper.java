@@ -9,7 +9,7 @@ import com.glb.entity.RoleMenu;
  * </p>
  *
  * @author glb
- * @since 2022-02-28
+ * @since 2023-02-28
  */
 public interface RoleMenuMapper extends BaseMapper<RoleMenu> {
 

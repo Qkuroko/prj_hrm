@@ -15,7 +15,7 @@ import java.util.List;
  * </p>
  *
  * @author glb
- * @since 2022-04-06
+ * @since 2023-04-06
  */
 public interface SalaryMapper extends BaseMapper<Salary> {
 

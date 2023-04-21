@@ -13,7 +13,7 @@ import javax.annotation.Resource;
  * 登录注册接口
  *
  * @Author : glb
- * @Date : 2022/1/30
+ * @Date : 2023/1/30
  */
 @RestController
 public class LoginController {

@@ -6,7 +6,7 @@ import java.security.MessageDigest;
 /**
  * md5加密
  * @Author : glb
- * @Date : 2022/1/28
+ * @Date : 2023/1/28
  */
 public class MD5Util {
     public static String MD5(String str) {
