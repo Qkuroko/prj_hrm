@@ -19,7 +19,7 @@ mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   # 扫描通用枚举包
-  type-enums-package: com.qiujie.enums
+  type-enums-package: com.glb.enums
 
 
 file:
