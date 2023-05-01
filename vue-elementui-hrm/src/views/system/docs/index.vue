@@ -25,9 +25,9 @@
       <el-upload :action="importApi" :headers="headers" accept="xlsx" :show-file-list="false" :multiple="false"
                  :on-success="handleImportSuccess"
                  style="display:inline-block;">
-        <el-button type="success" size="mini"
-        >导入 <i class="el-icon-bottom"></i>
-        </el-button>
+<!--        <el-button type="success" size="mini"-->
+<!--        >导入 <i class="el-icon-bottom"></i>-->
+<!--        </el-button>-->
       </el-upload>
       <el-button type="warning" size="mini" @click="exportData" style="margin-left: 10px"
       >导出 <i class="el-icon-top"></i>
