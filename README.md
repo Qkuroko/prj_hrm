@@ -1,27 +1,3 @@
-### 项目说明
-
-#### 更新
-
-1. 解决了第一次点击导航栏，页面出现空白的问题
-2. 取消使用自定义的封装组件CommonForm、CommonTable
-3. 优化了一些对话框布局
-4. 增加修改头像功能，员工未设置头像时，显示默认头像
-5. 删除了att_leave_type、sal_deduct_type、att_work_time、att_overtime_type等数据库表，具体原因见项目文档的总结部分
-6. token过期直接退出登录
-7. 实现了当访问不存在的路由时，出现404页面的功能
-8. 解决了一些关于路由warning的问题 2023/2/3
-9. 优化了界面，增强了搜索功能 2023/2/15
-10. 解决了添加子部门时，出现异常的问题 2023/2/17
-11. 解决了不能修改密码的问题 2023/3/10
-12. 解决了不能添加参保城市的问题 2023/4/6
-
-#### 其他
-
-1. 目前只修改了代码，但项目文档并未更新，大体上是一致的
-2. 老项目请切换v1.0-221229分支
-3. 目前项目的加班模块还未完成
-4. 后续会持续改进项目
-
 ### 项目介绍
 
 #### 项目背景
@@ -58,13 +34,13 @@
 
 #### 首页
 
-![首页](https://image-qiu.oss-cn-hangzhou.aliyuncs.com/img/~X@5T[9SJO014[RX}IW9]FV.png)
+![首页](https://image-qiu.oss-cn-hangzhou.aliyuncs.com/img/20220413215121.png)
 
 首页主要展示当前登录员工的一些基本信息，员工当前月的考勤数据，以及当日员工迟到、早退、旷工等情况。
 
 #### 请假
 
-![请假](https://image-qiu.oss-cn-hangzhou.aliyuncs.com/img/FD]K2@O3_L9[JU$CRU]K5_2.png)
+![请假](https://image-qiu.oss-cn-hangzhou.aliyuncs.com/img/20220413215255.png)
 
 在请假面板中，员工可以进行请假。在左侧的请假记录中查看以往的请假记录，或对当前未被审核的申请进行撤销。
 
@@ -132,7 +108,7 @@
    driver-class-name: com.mysql.cj.jdbc.Driver
    
    # 因为此项目涉及到了文件上传与下载，此路径用来存储上传的文件。
-   file:
+   files:
      upload:
        path: E:/project/idea/hrm/file/ # 修改为自己的路径
    ```
